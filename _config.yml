@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+
+carousel_title_1: Winn's Beauty Salon
+carousel_title_2: Hair . Nail . Skin Care
+carousel_title_3: In the Heart os Little Saigon
+
+email: CalFreeStyl3@gmail.com
+github_username:  FreeStyl3
+github_source: https://github.com/Winns-Salon/WinnsWebsite
+
+ 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+# markdown: kramdown
+# theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

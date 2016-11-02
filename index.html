@@ -1,0 +1,155 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lte IE 9]>
+<html class="ie" lang="en">
+<![endif]-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title> Winn's Salon </title>
+        <!-- Google jquery cdn -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Bootstrap cdn -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+        <!-- Animate.css cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+        <!-- Mr De Haviland font -->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Mr+De+Haviland" />
+
+        <!-- minified css -->
+        <link href="css/main.min.css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <div id="page-wrap" class="width-100 relative">
+            <!-- Carousel --> 
+            <div id="carousel-container" class="relative flex-box-center">
+
+                <!-- branches -->
+                <img src="images/branches.png" id="branches" class="absolute top-10 z-1">
+                <h1 class="absolute phone-font z-1">(714)-899-1944</h1>
+                
+                <!-- contact-box -->
+                <div id="contact-box" class="absolute white-border flex-box-center vcard z-1">
+                    <a id="mobile-call" class="absolute width-100 height-100 z-1000" href="tel:17148991944"></a>
+                    <h3 id="appointment-text" class="absolute carousel-font vh-font-3 text-center">Make an Appointment<img src="images/arrow.png" id="arrow" class="vh-height-1_5" alt="arrow"></h3>
+                </div>
+
+
+                <!-- myCarousel -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" ">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li class="active tab-margin test" data-target="#myCarousel" data-slide-to="0"></li>
+                        <li class="tab-margin test" data-target="#myCarousel" data-slide-to="1"></li>
+                        <li class="tab-margin test" data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- carousel image wrapper -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active" >
+                            <div class="absolute animated fadeIn carousel-font carousel-text text-center vw-font-5 width-100 z-1">{{ site.carousel_title_1 }}</div>
+                            <img src="images/carousel-image-1-dark.jpg" alt="stock-images-1" class="carousel-img width-100">
+                        </div>
+                        <div class="item">
+                            <div class="absolute animated fadeInDown carousel-font carousel-text text-center vw-font-5 width-100 z-1">{{ site.carousel_title_2 }}</div>
+                            <img src="images/carousel-image-2-dark.jpg" alt="stock-images-2" class="carousel-img width-100">
+                        </div>
+                        <div class="item">
+                            <div class="absolute animated fadeInUp carousel-font carousel-text text-center vw-font-5 width-100 z-1">{{ site.carousel_title_3 }}</div>
+                            <img src="images/carousel-image-3-dark.jpg" alt="stock-images-3" class="carousel-img width-100">
+                        </div>
+                    </div>
+                </div> <!-- /myCarousel -->
+            </div> <!-- /carousel-container -->
+            <div class="lg-height width-100"></div>
+            <div class="text-center">
+                <h6 class="lg-font title-font">Welcome to our</h6>
+                <h4 class="em-font light-font">HAIR CARE SALON</h4>
+            </div>
+            <div class="xs-height width-100"></div>
+            <div><img class="flex-box-center margin-auto" src="images/bar-line.png"></div>
+            <div class="xs-height width-100"></div>
+            <!-- Hours and adress div -->
+            <div class="text-center">
+                <h4 class="subtitle-font">OPEN HOURS</h4>
+                <div class="xs-height width-100"></div>
+                <h6><img class="dot-margin" src="images/dot.png">Mon-Fri: 9 am - 7 pm<img class="dot-margin" src="images/dot.png"></h6>
+                <div class="xs-height width-100"></div>
+                <div class="display-inline-block">
+                    <a class="address-link" href="http://maps.google.com/?q=9349 Bolsa Ave.
+    Westminster, Ca 92683" target="_blank">
+                        <h6>9349 Bolsa Ave.</h6>
+                        <h6>Westminster, Ca 92683</h6>
+                        <img src="images/map-logo.png">
+                    </a>
+                </div>
+            </div>
+            <div class="md-height width-100"></div>  
+            <div class="text-center"><h4 class="subtitle-font">SEE OUR SERVICES:</h4></div>
+            <div class="md-height width-100"></div> 
+            <!-- Advertise Box -->
+            <div id="ad-row-wrapper" class="row">
+                <div class="col-md-4 col-xs-12 row-item">
+                    <div class="ad-wrapper margin-auto pink-border">
+                        <div class="relative lg-height">
+                            <div class="ad-text-wrapper margin-auto relative pink-border">
+                                <h1 class="relative light-font lg-font title-font text-center em-font">Personal Styling</h1>    
+                            </div>
+                        </div>
+                        <div class="width-100"><img class="ad-image-wrapper" src="images/ad-image-1.jpg"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 row-item">
+                    <div class="ad-wrapper margin-auto pink-border">
+                        <div class="relative lg-height">
+                            <div class="ad-text-wrapper margin-auto relative pink-border">
+                                <h1 class="relative light-font lg-font title-font text-center em-font">Extension and Dye</h1>
+                            </div>
+                        </div>
+                        <div class="width-100"><img class="ad-image-wrapper" src="images/ad-image-2.jpg"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 row-item">
+                    <div class="ad-wrapper margin-auto pink-border">
+                        <div class="relative lg-height">
+                            <div class="ad-text-wrapper margin-auto relative pink-border">
+                                <h1 class="relative light-font lg-font title-font text-center em-font">Healthy Hair Care</h1>
+                            </div>
+                        </div>
+                        <div class="width-100"><img class="ad-image-wrapper" src="images/ad-image-3.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="contact-div">
+                <h5>
+                    Questions? {{ site.email }}
+
+                </h5>
+                <h5>
+                    Github account: {{ site.github_username }}
+                </h5>
+                <h5>
+                    Source: {{ site.github_source }}
+                </h5>
+            </div>
+        </footer>
+    </body>
+    <!-- Bootstrap js -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- main javascript -->
+    <script type="text/javascript" src="js/main.min.js"></script>
+</html>
